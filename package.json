@@ -1,6 +1,6 @@
 {
-  "name": "youtube-search",
-  "displayName": "youtube-search",
+  "name": "yousearch",
+  "displayName": "Youtube Search",
   "description": "search selected text on youtube",
   "version": "0.0.1",
   "publisher": "dumpvn",
@@ -11,22 +11,22 @@
     "Other"
   ],
   "activationEvents": [
-    "onCommand:dumpvn.youtubeSearch"
+    "onCommand:dumpvn.youSearch"
   ],
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "dumpvn.youtubeSearch",
+        "command": "dumpvn.youSearch",
         "title": "Search Youtube"
       }
     ],
     "menus": {
 	    "editor/context": [
 	      {
-	        "command": "dumpvn.youtubeSearch",
+	        "command": "dumpvn.youSearch",
 	        "when": "editorHasSelection",
-		"group": "navigation"
+		      "group": "navigation"
 	      }
 	    ]
 	  }
