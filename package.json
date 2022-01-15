@@ -2,7 +2,7 @@
   "name": "yousearch",
   "displayName": "Youtube Search",
   "description": "search selected text on youtube",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "dumpvn",
   "engines": {
     "vscode": "^1.63.0"
@@ -22,25 +22,25 @@
       }
     ],
     "menus": {
-	    "editor/context": [
-	      {
-	        "command": "dumpvn.youSearch",
-	        "when": "editorHasSelection",
-		      "group": "navigation"
-	      }
-	    ]
-	  }
+      "editor/context": [
+        {
+          "command": "dumpvn.youSearch",
+          "when": "editorHasSelection",
+          "group": "navigation"
+        }
+      ]
+    }
   },
-	"keywords": [
-		"youtube",
-		"search",
-		"lookup"
-	],
-	"icon": "resources/youtube_128px.png",
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/dumpvn/youtube-search.git"
-	},
+  "keywords": [
+    "youtube",
+    "search",
+    "lookup"
+  ],
+  "icon": "resources/youtube_128px.png",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dumpvn/youtube-search.git"
+  },
   "scripts": {
     "vscode:prepublish": "npm run compile",
     "compile": "tsc -p ./",
