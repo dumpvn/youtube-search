@@ -3,6 +3,7 @@
   "displayName": "youtube-search",
   "description": "search selected text on youtube",
   "version": "0.0.1",
+  "publisher": "dumpvn",
   "engines": {
     "vscode": "^1.63.0"
   },
